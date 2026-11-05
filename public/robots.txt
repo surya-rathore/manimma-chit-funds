@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-DOMAIN.com/sitemap.xml
+Sitemap: https://manimma-chit-funds.vercel.app/sitemap.xml
