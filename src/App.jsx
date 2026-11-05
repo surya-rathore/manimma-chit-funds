@@ -130,12 +130,7 @@ const App = () => {
   }
 
   setValidationError("");
-
-  document.body.classList.add("printing");
-
-  setTimeout(() => {
-    window.print();
-  }, 100);
+window.print();
 
 };
 
