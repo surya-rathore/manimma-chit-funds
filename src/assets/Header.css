@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.main-container {
+    margin: 0;
+    padding: 0 20px;
+    width: 100%;
+    min-height: 115px;
+    box-sizing: border-box;
+
+    background-color: #0D7472;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* LOGO SECTION */
+
+.logo-part {
+    margin-left: 5px;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-part img {
+    width: 220px;
+    height: 105px;
+    object-fit: contain;
+}
+
+/* CENTER CONTENT */
+
+.Center-content {
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.Center-content h2 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 21px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.Center-content p {
+    margin: 2px 0 0;
+    padding: 0;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFD166;
+    letter-spacing: 1.2px;
+}
+
+/* RIGHT CONTENT */
+
+.right-content {
+    margin-right: 5px;
+
+    color: #FFFFFF;
+    text-align: right;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+}
+
+.application-title {
+    margin: 0;
+    padding: 0;
+
+    font-size: 19px;
+    font-weight: 600;
+    color: #FFD166;
+}
+
+.right-content p {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    .main-container {
+        height: auto;
+        padding: 12px;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .logo-part img {
+        width: 190px;
+        height: 85px;
+    }
+
+    .Center-content {
+        text-align: center;
+    }
+
+    .right-content {
+        text-align: center;
+        margin: 0;
+    }
+}

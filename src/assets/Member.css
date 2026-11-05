@@ -1,0 +1,140 @@
+.member-box{
+    width:95%;
+    margin:20px auto;
+    padding:28px 18px 15px;
+    border:2px solid #1d5db8;
+    border-radius:15px;
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:10px;
+    position:relative;
+    box-sizing:border-box;
+}
+
+/* ---------- Heading ---------- */
+
+.section-title{
+    position:absolute;
+    height:18px;
+    top:-2px;
+    left:-2px;
+    background:rgb(12, 112, 112);
+    color:#fff;
+    padding:8px 18px;
+    border-radius:12px 0 15px 0;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:17px;
+    font-weight:600;
+}
+
+.section-title span{
+    width:22px;
+    height:22px;
+    background:#ffc107;
+    color:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:4px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+/* ---------- Left & Right ---------- */
+
+.left-side,
+.right-side{
+    width:42%;
+}
+
+/* ---------- Form ---------- */
+
+.form-row{
+    display:flex;
+    align-items:center;
+    margin-bottom:12px;
+}
+
+.form-row label{
+    width:155px;
+    font-size:14px;
+    font-weight:500;
+    color:#222;
+}
+
+.form-row input{
+    flex:1;
+    border:none;
+    border-bottom:1px solid #666;
+    outline:none;
+    background:transparent;
+    font-size:14px;
+    padding:2px 4px;
+}
+
+/* ---------- Address ---------- */
+
+.address{
+    align-items:flex-start;
+}
+
+.address textarea{
+    flex:1;
+    height:25px;
+    border:none;
+    border-bottom:1px solid #666;
+    resize:none;
+    outline:none;
+    background:transparent;
+    font-size:14px;
+}
+
+/* ---------- Gender ---------- */
+
+.gender{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.gender input{
+    width:14px;
+    height:14px;
+}
+
+.gender label{
+    width:auto;
+    font-size:14px;
+}
+
+/* ---------- Photo ---------- */
+
+.photo-box{
+    width:140px;
+    height:180px;
+    border:1px dashed #999;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    padding:8px;
+}
+
+.preview-image{
+    width:100%;
+    height:130px;
+    object-fit:cover;
+    border-radius:5px;
+    margin-bottom:8px;
+}
+
+.photo-box input{
+    width:100%;
+    font-size:11px;
+}
